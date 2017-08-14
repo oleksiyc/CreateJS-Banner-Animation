@@ -89,8 +89,6 @@
      frame2 = new createjs.Container();
      frame3 = new createjs.Container();
      picArray = [];
-     canvas.width = window.innerWidth;
-     canvas.height = window.innerHeight;
      for (var i = 0; i < 3; i++) { //frames
          var bmp = new createjs.Bitmap(images[i]);
          picArray.push(bmp);
